@@ -567,13 +567,13 @@ function ml_global_information.Init()
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay S1T7", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay P1T6", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay Z1T9", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] The Limitless BlueEX", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Thok ast ThokEX", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] The Minstrel's Ballad Thordan's Reign", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] The Minstrel's Ballad Nidhogg's Rage", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay S1T7EX", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay P1T6EX", enforce)
-		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Containment Bay Z1T9EX", enforce)
+		  ml_mesh_mgr.SetDefaultMesh(447, "The Limitless Blue", enforce) --EX
+		  ml_mesh_mgr.SetDefaultMesh(446, "Thok ast Thok", enforce) --EX
+		  ml_mesh_mgr.SetDefaultMesh(437, "Singularity Reactor", enforce) --EX The Minstrel's Ballad Thordan's Reign
+		  ml_mesh_mgr.SetDefaultMesh(466, "Steps of Faith - Nidhogg Extreme", enforce) --Mesh extended past playable area to be able to see AOEs being cast
+		  ml_mesh_mgr.SetDefaultMesh(446, "Containment Bay S1T7", enforce) --EX Sephirot
+		  ml_mesh_mgr.SetDefaultMesh(577, "Containment Bay P1T6", enforce) --EX Sophia Mesh extended past playable area to be able to see AOEs being cast
+		  ml_mesh_mgr.SetDefaultMesh(637, "Containment Bay Z1T9", enforce) --EX Zurvan
 		
 		-- Trials SB
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] The Pool of Tribute", enforce)
