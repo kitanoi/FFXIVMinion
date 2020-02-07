@@ -574,7 +574,8 @@ function ml_global_information.Init()
 		  ml_mesh_mgr.SetDefaultMesh(446, "Containment Bay S1T7", enforce) --EX Sephirot
 		  ml_mesh_mgr.SetDefaultMesh(577, "Containment Bay P1T6", enforce) --EX Sophia Mesh extended past playable area to be able to see AOEs being cast
 		  ml_mesh_mgr.SetDefaultMesh(637, "Containment Bay Z1T9", enforce) --EX Zurvan
-		
+		  ml_mesh_mgr.SetDefaultMesh(761, "The Great Hunt", enforce)
+		  ml_mesh_mgr.SetDefaultMesh(762, "The Great Hunt", enforce)
 		-- Trials SB
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] The Pool of Tribute", enforce)
 		--ml_mesh_mgr.SetDefaultMesh(???, "[Trial] Emanation", enforce)
@@ -761,6 +762,7 @@ function ml_global_information.Init()
 		ml_mesh_mgr.SetDefaultMesh(501, "Duty_2063", true)
 		ml_mesh_mgr.SetDefaultMesh(502, "Duty_2104", true)
 		ml_mesh_mgr.SetDefaultMesh(503, "Duty_2105", true)
+		ml_mesh_mgr.SetDefaultMesh(558, "The Aquapolis", true)
 		ml_mesh_mgr.SetDefaultMesh(640, "Duty_2416", true)
 		ml_mesh_mgr.SetDefaultMesh(647, "Duty_2429", true)
 		ml_mesh_mgr.SetDefaultMesh(648, "Duty_2430", true)
